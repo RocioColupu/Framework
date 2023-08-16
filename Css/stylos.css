@@ -1,0 +1,15 @@
+.page{
+    background-image: linear-gradient(#6dcfef, #37464b);
+}
+span{
+    font-size: 21px;
+}
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra-sup{
+    background-color: red 
+    ;
+}
