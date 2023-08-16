@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <!-- Titulo -->
-    <title>My App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimum-ui, viewport-fit=cover">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <!-- Color predeterminado de android -->
-    <meta name="theme-color" content="#2196f3">
-    
-    
-    <!-- Framework7 Library Bundle CSS -->
-    <link rel="stylesheet" href="Css/framework7.bundle.min.css">
-    <!-- Vinculamos los estilos-->
-    <link rel="stylesheet" href="Css/stylos.css">
 
-    <script src="js/all.js"></script>
-  </head>
-  <body>
-    <!-- App root element -->
-    <div id="app">
-      <div class="statusbar"></div>
+<head>
+  <meta charset="utf-8">
+  <!-- Titulo -->
+  <title> Beauty Lashes</title>
+  <link rel="icon" type="image/x-icon" href="Image/favicon.jpg">
 
-      <!-- Your main view, should have "view-main" class -->
-      <div class="view view-main">
-        <!-- Initial Page, "data-name" contains page name -->
-        <div data-name="home" class="page">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimum-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Color predeterminado de android -->
+  <meta name="theme-color" content="#2196f3">
 
-          <!--Barra Superior -->
-          <div class="navbar ">
-            <div class="navbar-bg"> </div>
-            <div class="navbar-inner barra-sup">
-              <div class="title">Roci's App</div>
-            </div>
+
+  <!-- Framework7 Library Bundle CSS -->
+  <link rel="stylesheet" href="Css/framework7.bundle.min.css">
+  <!-- Vinculamos los estilos-->
+  <link rel="stylesheet" href="Css/stylos.css">
+
+  <script src="js/all.js"></script>
+</head>
+
+<body>
+  <!-- App root element -->
+  <div id="app">
+    <div class="statusbar"></div>
+
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+      <!-- Initial Page, "data-name" contains page name -->
+      <div data-name="home" class="page">
+
+        <!--Barra Superior -->
+        <div class="navbar ">
+          <div class="navbar-bg"> <img src="Image/BannerPrincipal.png"></div>
+          <div class="navbar-inner barra-sup">
+            <div class="title"> </div>
           </div>
+        </div>
 
-          <!-- Barra de Herramientas -->
-          <div class="toolbar toolbar-bottom">
-            <div class="toolbar-inner">
-              <!-- Toolbar links -->
-              <!-- Insertar Iconos desde FONT AWESOME -->
-              <!-- FA-2X AGRANDA O icono para editarlo directo en el CSS con emm -->
-              <a href="#" class="link"><i class="fa-solid fa-house fa-2x"></i></a>  
-              <a href="#" class="link">Galeria</a>
-            </div>
+        <!-- Barra de Herramientas -->
+        <div class="toolbar toolbar-bottom">
+          <div class="toolbar-inner">
+            <!-- Toolbar links -->
+            <!-- Insertar Iconos desde FONT AWESOME -->
+            <!-- FA-2X AGRANDA O icono para editarlo directo en el CSS con emm -->
+            <a href="/home/" class="link"><i class="fa-solid fa-house fa-2x"></i></a>
+            <a href="/date/" class="link"><i class="fa-solid fa-calendar-check fa-2x" style="color: #585858;"></i></a>
           </div>
+        </div>
 
-          <!-- Informacion de la App -->
-          <div class="page-content">
-             <div class="block">
-              <h2 class="subt-h2"> Welcome </h2>
-                <span >- Lorem</span> <br> 
-                
-              <!-- <img class="i1" src="https://picsum.photos/600/800?image=580" alt=""> -->
-             </div>
+        <!-- Informacion de la App -->
+        <div class="page-content">
+          <div class="block">
+            <h2 class="subt-h2"> Welcome </h2>
+            <span>- Lorem</span> <br>
+
+            
+
+
+
+
+
+
           </div>
         </div>
       </div>
     </div>
-    <!-- Path to Framework7 Library Bundle JS-->
-    <script src="js/framework7.bundle.min.js"></script>
-    <!-- Path to your app js-->
-    <script src="js/app.js"></script>
-  </body>
+  </div>
+  <!-- Path to Framework7 Library Bundle JS-->
+  <script src="js/framework7.bundle.min.js"></script>
+  <!-- Path to your app js-->
+  <script src="js/app.js"></script>
+</body>
+
 </html>
