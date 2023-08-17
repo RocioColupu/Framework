@@ -10,13 +10,18 @@ var app = new Framework7({
     // Add default routes
     routes: [
       {
-        path: "/about/",
+        path: "/home/",
         url: 'index.html',
       },
       {
-        path: "/cita/",
-        url: "cita.html"
+        path: "/location/",
+        url: "location.html",
       },
+      {
+        path: "/contacto/",
+        url: "contacto.html",
+      }
+     
     ],
     // ... other parameters
   });

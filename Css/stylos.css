@@ -1,28 +1,51 @@
-.page-content{
-    /* background-image: url("/Image/background.jpg"); */
-    width: 100%;
-    display: block;
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&family=Rubik&display=swap');
+/* FONTFAMILY
+ font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+ */
 
-}
 
-.page{
-    background-image: linear-gradient(#ffffff, #585858);
+.page {
+    background-image: linear-gradient(#D9C1BB, #D4A285);
     border: none;
 }
-span{
+
+span {
     font-size: 21px;
 }
 
-.title{
+.title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar-bg{
+.page-content img {
     background: none;
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     border: none;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #7B4833;
+}
+
+.block-strong {
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 22px;
+    background-color: #D4A285;
+}
+
+.block-title {
+    font-family: 'Rubik', sans-serif;
+}
+
+.button {
+    background-color: #A85C61;
+    margin-bottom: 25px;
 }
